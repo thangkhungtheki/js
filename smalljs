@@ -1,0 +1,5 @@
+<script>
+  async function test(){
+    console.log("hihihiihihi")
+  }
+</script
