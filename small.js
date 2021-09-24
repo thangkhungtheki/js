@@ -1,4 +1,5 @@
 
   function test(){
-    console.log("hihihiihihi")
+    console.log("hihihiihihi");
   }
+test();
