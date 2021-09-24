@@ -1,4 +1,4 @@
 
-  async function test(){
+  function test(){
     console.log("hihihiihihi")
   }
