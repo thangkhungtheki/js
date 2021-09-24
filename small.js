@@ -1,5 +1,3 @@
 
-  function test(){
-    console.log("hihihiihihi");
-  }
-test();
+console.log("hihihiihihi");
+
