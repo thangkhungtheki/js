@@ -1,4 +1,4 @@
-let sc = await fetch(linksrc + '1873')
+let sc = fetch(linksrc + '1873')
   						.then((res) => {return res.text()})
   						.then((result) => {return JSON.parse(result)})
   						.then((resul) => {return resul.video;})
