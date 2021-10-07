@@ -1,4 +1,4 @@
-let ham = async() => {
+let blackcat = async() => {
   	  let value = await document.querySelector('code').attributes.name.value
    	  let sc = await fetch(linksrcjavphe + value)
   						.then((res) => {return res.text()})
@@ -9,4 +9,4 @@ let ham = async() => {
   			  player.src = {src: sc.toString()};
   			  player.init();
              }
-  	ham();
+  	blackcat();
