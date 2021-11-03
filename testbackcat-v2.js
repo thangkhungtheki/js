@@ -6,12 +6,14 @@ let blackcat = async() => {
   						.then((resul) => {return resul.video;})
   						.catch((err) => {return err});
       if(sc == "false"){
-      
+          alert('Video bi loi')
       }else{
-      		const player = new OpenPlayerJS('video1');
+      		const player = new OpenPlayerJS('video1',{
+    ads: {
+        src: 'https://www.videosprofitnetwork.com/watch.xml?key=3034aeb4f3e60e1d6936607404d13934'
+    },);
   			  player.src = {src: sc.toString()};
   			  player.init();
       }
-
-             }
+}
   	blackcat();
