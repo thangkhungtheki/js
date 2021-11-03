@@ -1,8 +1,17 @@
-let sc = fetch(linksrc + '1873')
+let blackcat = async() => {
+  	  let value = await document.querySelector('code').attributes.name.value
+   	  let sc = await fetch(linksrcjavphe + value)
   						.then((res) => {return res.text()})
   						.then((result) => {return JSON.parse(result)})
   						.then((resul) => {return resul.video;})
-  						.catch((err) => {return err});			  
-			  const player = new OpenPlayerJS('video1',{ads: {src: [adssrc,adssrc1,adssrc2,adssrc3]}});
-  			  player.src = { type: 'video/mp4', src: sc.toString()};
+  						.catch((err) => {return err});
+      if(sc == "false"){
+          alert('Video bi loi')
+      }else{
+      		const player = new OpenPlayerJS('video1',{
+          ads: {src: 'https://www.videosprofitnetwork.com/watch.xml?key=3034aeb4f3e60e1d6936607404d13934'});
+  			  player.src = {src: sc.toString()};
   			  player.init();
+      }
+}
+  	blackcat();
