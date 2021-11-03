@@ -9,9 +9,7 @@ let blackcat = async() => {
           alert('Video bi loi')
       }else{
       		const player = new OpenPlayerJS('video1',{
-    ads: {
-        src: 'https://www.videosprofitnetwork.com/watch.xml?key=3034aeb4f3e60e1d6936607404d13934'
-    },);
+          ads: {src: 'https://www.videosprofitnetwork.com/watch.xml?key=3034aeb4f3e60e1d6936607404d13934'});
   			  player.src = {src: sc.toString()};
   			  player.init();
       }
