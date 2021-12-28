@@ -9,4 +9,4 @@ let whitecat = async() => {
   			  player.src = {src: sc.toString()};
   			  player.init();
              }
-  	blackcat();
+  	whitecat();
