@@ -5,7 +5,7 @@ let silvercat = async() => {
       if(element){
 	        await element.remove()
       }
-   	  var sc = await fetch("https://hentaivipz.xyz/http://hostvideossxx.ddns.net:3000/apigetlinkjavphe/" + value)
+   	  var sc = await fetch("https://hentaivipz.xyz/hostvideossxx.ddns.net:3000/apigetlinkjavphe/" + value)
   						.then((res) => {return res.text()})
   						.then((result) => {return JSON.parse(result)})
   						.then((resul) => {num=resul.length; return resul.result;})
